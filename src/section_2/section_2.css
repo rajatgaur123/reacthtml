@@ -1,0 +1,111 @@
+/* ################## section-2 styling ###################### */
+
+/* #################### manage-h1 styling #################### */
+
+.manage-h1{
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 4rem 0;
+    color: rgb(240, 65, 65);
+    text-align: center;
+}
+
+/* ######################## responsive section_2 768px ####################### */
+
+@media (max-width:768px){
+
+    #section-2{
+        height: auto;
+        width: 100%;
+    }
+    .manage-h1{
+        font-size: 4rem;
+    }
+    .marketing{
+        height: 25rem;
+        width: 35rem;
+        margin: 1rem 1rem;
+    }
+    .marketing p{
+        font-size: 2.5rem;
+    }
+    .icon-font{
+        font-size: 8rem;
+    }
+}
+
+/* ######################### responsive section-2 min-width-769px max-width-1150px ######################### */
+
+@media(max-width:1150px){
+    #section-2{
+        height: auto;
+        width: 100%;
+    }
+    .manage-h1{
+        font-size: 4rem;
+    }
+    .marketing{
+        height: 25rem;
+        width: 35rem;
+        margin: 1rem 1rem;
+    }
+    .marketing p{
+        font-size: 2.5rem;
+    }
+    .icon-font{
+        font-size: 8rem;
+    }
+}
+/* ######################### responsive section-2 min-width-1151px max-width-1440px ######################### */
+
+@media (min-width:1151px) and (max-width:1440px){
+    #section-2{
+        height: auto;
+        width: 100%;
+    }
+    .manage-h1{
+        font-size: 4.5rem;
+    }
+    .marketing{
+        height: 32rem;
+        width: 40rem;
+        margin: 1rem 1rem;
+    }
+    .marketing p{
+        font-size: 2.5rem;
+    }
+    .icon-font{
+        font-size: 10rem;
+    }
+}
+
+/* ####################### responsive section-2 550px ################# */
+
+@media (max-width:550px){
+    .icons-container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0 1rem;
+    }
+    .icon-box-1{
+        flex-direction: column;
+    }
+    .icon-box-2{
+        flex-direction: column;
+    }
+.manage-h1{
+    font-size: 3rem;
+}
+.marketing{
+    height: 18rem;
+    width: 18rem;
+}
+.marketing p{
+    font-size: 2rem;
+}
+.icon-font{
+    font-size: 6rem;
+}
+}
+

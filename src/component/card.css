@@ -1,0 +1,61 @@
+.icon-box-1{
+    display: flex;
+    justify-content: space-between;
+}
+.marketing{
+    background-color: rgb(235, 226, 213);
+    height: 35rem;
+    width: 42rem;
+    border-radius: 2rem;
+    margin: 1.8rem 0;
+}
+
+
+.marketing p{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin-top: 1em;
+}
+.startups p{
+    color: rgba(231, 125, 144, 0.979);
+}
+.consultations p{
+    color: rgb(185, 78, 214);
+}
+.investment p{
+    color: rgb(74, 186, 235);
+}
+.anti-crisis{
+    background-color: rgb(202, 135, 221);
+}
+.market{
+    background-color: rgb(122, 190, 220);
+}
+.strategy{
+    background-color: rgb(225, 113, 133);
+}
+
+
+.icon-box-2{
+    display: flex;
+    justify-content: space-between;
+}
+.icon-font{
+    font-size: 10rem;
+    color: rgba(240, 248, 255, 0.697);
+    text-align: center;
+    margin-top: 0.4em;
+}
+.IoRocketOutline{
+    color: rgba(227, 146, 161, 0.773);
+}
+.RiCoinsLine{
+    color: rgba(199, 115, 222, 0.796);
+}
+.RiExchangeDollarLine{
+    color: rgba(116, 187, 217, 0.808);
+}
+
+

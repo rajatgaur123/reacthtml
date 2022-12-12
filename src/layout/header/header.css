@@ -1,0 +1,136 @@
+/* #############3 header-section styling ################# */
+
+#header-section{
+    background-color: rgb(40, 40, 65);
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+.logo h1{
+    font-size: 4rem;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+}
+.nav-item a{
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1em;
+    color: white;
+    text-transform: capitalize;
+}
+.nav-item-2{
+    height: 4rem;
+    width: 15rem;
+    border-radius: 0.5rem;
+}
+.nav-item-2:hover{
+    background-color: rgb(223, 217, 217);
+    cursor: pointer;
+}
+.nav-item-2 a{
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: red;
+}
+.nav-item a:hover{
+    border-bottom: 3px solid blue;
+    padding-bottom: 1.6rem;
+}
+
+
+
+.login{
+    height: 32rem;
+    width: 28rem;
+    display: none;
+    position: absolute;
+    background-color: white;
+    /* width: 30%; */
+    top: 10%;
+    transition: all 0.5s linear;
+    /* padding: 6rem 5rem; */
+    text-align: center;
+    right: 5%;
+    box-shadow: 0rem 1rem 0rem rgba(red, green, blue, alpha);
+    background-color: rgb(7, 7, 147);
+    border-radius: 1rem;
+}
+.login-active{
+    display: block;
+}
+.close{
+    font-size: 3.5rem;
+    color: white;
+    text-align: right;
+    margin: 0.5rem 0.5rem  0 0;
+}
+.welcome-h1 h1{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+.form-box{
+    margin-top: 1rem;
+}
+.form-box input{
+    width: 22rem;
+    height: 4rem;
+    /* padding-left: 1rem; */
+    background: fixed;
+    border: none;
+    border: 2px solid rgba(255, 255, 255, 0.659);
+    border-radius: 0.3rem;
+    margin: 0.5rem 0;
+}
+.form-box ::placeholder{
+    font-size: 1.4rem;
+    color: rgba(255, 255, 255, 0.489);
+    padding-left: 1rem;
+}
+.form-box p{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: white;
+    margin: 0.5em 0 0.5em 8.6em;
+}
+.login-button input{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: blue;
+    background-color: white;
+}
+
+/* ################## header-section-responsive 768px ######################## */
+
+@media (max-width:768px) {
+    html{
+        font-size: 45%;
+    }
+    .navbar-container{
+        height: auto;
+    }
+}
+
+
+/* ################## header-section-responsive 550px ######################## */
+
+@media (max-width:550px) {
+    html{
+        font-size: 40%;
+    }
+    .navbar-container{
+        flex-direction: column;
+    }
+    .nav-item{
+        margin: 1rem 0;
+    }
+}

@@ -1,0 +1,186 @@
+/* ########################### section-3 styling ##################### */
+
+.testimonials-container{
+    margin: 2rem auto;
+    width: 65%;
+}
+
+.testimonials-p p{
+    font-size: 3rem;
+    margin-top: 0.4em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.testimonials-h1 h1{
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2rem 0;
+    color: rgb(227, 50, 95);
+    text-align: center;
+}
+.testimonials-p-2 p{
+    font-size: 2.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 1.7em;
+}
+
+/* ######################### reynolds-container styling ##################### */
+
+.reynolds-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(132, 203, 239);
+    height: 25rem;
+    width: 95%;
+    margin: 3rem auto;
+    padding: 0 5rem;
+    border-radius: 2rem;
+}
+.reynolds-1{
+    background-color: rgb(191, 149, 231);
+}
+.reynolds-2{
+    background-color: rgb(234, 137, 166);
+}
+.gola{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    background-color: white;
+}
+.nat-box p{
+    font-size: 2.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 0.7em;
+    line-height: 1.4em;
+}
+.nat-box h2{
+    font-size: 2.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+/* ####################### responsive 768px section-3 ################# */
+
+@media (max-width:768px){
+    #section-3{
+        height: auto;
+    }
+    .testimonials-container{
+        margin: 2rem auto;
+        width: 75%;
+    }
+    .testimonials-p p{
+        font-size: 2.5rem;
+    }
+    .testimonials-h1 h1{
+        font-size: 3.8rem;
+    }
+    .testimonials-p-2 p{
+        font-size: 1.8rem;
+    }
+
+    .reynolds-container{
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        text-align: center;
+        padding: 1rem 1rem;
+    }
+    .gola{
+        margin: 1rem 0;
+    }
+    .nat-box p{
+        font-size: 1.9rem;
+    }
+
+}
+
+/* ######################### responsiv min-width:769px max-width:1150px section-3 ########################## */
+
+@media (min-width:769px) and (max-width:1150px){
+    #section-3{
+        height: auto;
+    }
+    .testimonials-container{
+        margin: 2rem auto;
+        width: 75%;
+    }
+    .testimonials-p p{
+        font-size: 2.7rem;
+    }
+    .testimonials-h1 h1{
+        font-size: 4rem;
+    }
+    .testimonials-p-2 p{
+        font-size: 2rem;
+    }
+    
+    .reynolds-container{
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        text-align: center;
+        padding: 1rem 1rem;
+    }
+    .gola{
+        margin: 1rem 0;
+    }
+    .nat-box p{
+        font-size: 2rem;
+    }
+
+}
+
+
+/* ######################### responsiv min-width:1151px max-width:1370px section-3 ######################### */
+
+@media (min-width:1151px) and (max-width:1370px){
+    #section-3{
+        height: auto;
+    }
+    .testimonials-container{
+        margin: 2rem auto;
+        width: 75%;
+    }
+    .testimonials-h1 h1{
+        font-size: 4.5rem;
+    }
+
+}
+/* ####################### responsive 550px section-3 ################# */
+
+@media (max-width:550px){
+    #section-3{
+        height: auto;
+    }
+    .testimonials-container{
+        margin: 2rem auto;
+        width: 75%;
+    }
+    .testimonials-p p{
+        font-size: 2.5rem;
+    }
+    .testimonials-h1 h1{
+        font-size: 3.8rem;
+    }
+    .testimonials-p-2 p{
+        font-size: 1.8rem;
+    }
+
+
+    .gola{
+        margin: 1rem 0;
+    }
+    .nat-box p{
+        font-size: 1.9rem;
+    }
+
+   
+}

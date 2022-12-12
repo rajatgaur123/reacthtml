@@ -1,0 +1,32 @@
+#footer{
+    background-color: rgba(55, 49, 49, 0.863);
+    padding: 6rem 0;
+}
+.click-container{
+    text-align: center;
+}
+.click-p{
+    font-size: 1.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.link-p{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 5.5em;
+}
+.link-p span{
+    color: rgb(199, 128, 128);
+    border-bottom: 2px solid rgb(196, 114, 114);
+    cursor: pointer;
+}
+
+
+/* ############################ responsiv max-width:1440px footer ####################### */
+@media (max-width:1440px){
+    #footer{
+        height: auto;
+        width: 100%;
+    }
+}

@@ -1,0 +1,183 @@
+/* ########################### section-6 styling ####################### */
+#section-6{
+    background-color: rgb(246, 240, 240);
+    padding: 4rem 0;
+}
+.new-york-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 2rem 0 2rem auto;
+}
+.york-h1{
+    font-size: 5.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(225, 61, 91);
+}
+.york-box-no{
+    text-align: center;
+}
+.york-p{
+    font-size: 2.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: black;
+    margin: 1em 0;
+}
+.freepik-p2{
+    font-size: 2rem;
+    color: rgba(36, 34, 34, 0.874);
+    text-transform: capitalize;
+}
+.york-img-box img{
+    display: inline-block;
+    height: 38rem;
+    width: 50rem;
+    border-radius: 2rem;
+}
+
+/* ######################## .new-york2-container styling ####################### */
+
+.new-york2-container{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 4rem 0 2rem auto;
+}
+.call-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 34rem;
+    height: 20rem;
+    padding: 0 3rem;
+    background-color: rgb(206, 141, 242);
+    border-radius: 2rem;
+}
+.call-box h1{
+    font-size: 2.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+    margin: 0.6em 0;
+}
+.call-box p{
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7em;
+    color: white;
+}
+.location{
+    background-color: rgb(233, 108, 150);
+}
+.hours{
+    background-color: rgb(89, 200, 237);
+}
+
+
+
+/* ################################ responsiv max-width:768px section-6 ######################### */
+
+@media (max-width:768px){
+    #section-6{
+        height: auto;
+        width: 100%;
+    }
+    .new-york-container{
+        flex-direction: column;
+        margin: auto;
+    }
+    .york-box-no{
+        order: 2;
+        margin: 2rem 0;
+    }
+    .york-img-box{
+        order: 1;
+    }
+
+
+    .new-york2-container{
+        flex-direction: column;
+        /* width: 100%; */
+        margin: auto;
+    }
+    .call-box{
+        width: 100%;
+        margin: 1rem 0;
+    }
+}
+
+/* ########################### min-width:769px and max-width:1150px responsive section-6 ########################### */
+@media (min-width:769px) and (max-width:1150px){
+    #section-6{
+        height: auto;
+        width: 100%;
+    }
+    .new-york-container{
+        flex-direction: column;
+        margin: auto;
+    }
+    .york-box-no{
+        order: 2;
+        margin: 2rem 0;
+    }
+    .york-img-box{
+        order: 1;
+    }
+
+
+    .new-york2-container{
+        flex-direction: column;
+        /* width: 100%; */
+        margin: auto;
+    }
+    .call-box{
+        width: 100%;
+        margin: 1rem 0;
+    }
+}
+
+/* ########################### min-width:1151px and max-width:1440px responsive section-6 ########################### */
+@media (min-width:1151px) and (max-width:1440px){
+    #section-6{
+        height: auto;
+        width: 100%;
+    }
+    .new-york-container{
+        width: 85%;
+        margin: 2rem auto;
+    }
+
+
+    .new-york2-container{
+        flex-direction: column;
+        /* width: 100%; */
+        margin: auto;
+    }
+    .call-box{
+        width: 100%;
+        margin: 1rem 0;
+    }
+}  
+
+
+/* ######################### max-width:550px responsiv section-6 ###################### */
+
+@media (max-width:550px){
+    .york-h1{
+        font-size: 4.2rem;
+    }
+    .york-p{
+        font-size: 1.9rem;
+    }
+    .freepik-p2{
+        font-size: 1.8rem;
+    }
+    .york-img-box img{
+        display: inline-block;
+        height: 30rem;
+        width: 42rem;
+    }    
+}
