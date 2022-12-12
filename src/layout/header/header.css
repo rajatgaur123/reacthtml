@@ -60,6 +60,7 @@
     box-shadow: 0rem 1rem 0rem rgba(red, green, blue, alpha);
     background-color: rgb(7, 7, 147);
     border-radius: 1rem;
+    box-shadow: 1px 5px 1px 5px rgba(150, 150, 215, 0.116);
 }
 .login-active{
     display: block;
@@ -100,6 +101,7 @@
     text-transform: capitalize;
     color: white;
     margin: 0.5em 0 0.5em 8.6em;
+    cursor: pointer;
 }
 .login-button input{
     font-size: 2rem;
@@ -107,6 +109,12 @@
     font-weight: 700;
     color: blue;
     background-color: white;
+}
+.login-button input:hover{
+    background-color: rgb(82, 82, 232);
+    color: white;
+    cursor: pointer;
+    border: 2px solid rgb(82, 82, 232);
 }
 
 /* ################## header-section-responsive 768px ######################## */
