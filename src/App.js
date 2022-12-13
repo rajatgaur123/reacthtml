@@ -11,6 +11,7 @@ import Section_3 from "./section_3/Section_3";
 import Section4 from "./section_4/Section4";
 import Section5 from "./section_5/Section5";
 import Section6 from "./section_6/Section6"; 
+import Register from "./pages/register/Register";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
       <Route exact path="/" element={<Home/>} />
       <Route exact path="/about" element={<About/>} />
       <Route exact path="/contact" element={<Contact/>} />
-      <Route exact path="/Login" element={<Login/>} />
+      <Route exact path="/register" element={<Register/>} />
       
     </Routes>
        

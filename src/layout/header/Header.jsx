@@ -1,10 +1,11 @@
 import React from "react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import {AiFillCloseCircle} from 'react-icons/ai'
 import './header.css'
 function Header(){
     const [open,setOpen] =  useState(false)
+    const navigate = useNavigate()
     return(
         <>
     <header id="header-section">
@@ -29,7 +30,10 @@ function Header(){
                 <form action="" className="form-box">
                     <input type="email" id="email" name="email" placeholder="email address" required/> <br /> <br />
                     <input type="password" id="password" name="password" placeholder="password" required/> <br />
-                    <p>forgot password</p>
+                    <div className="register">
+                        <p onClick={()=> navigate('/register') }>register</p>
+                        <p>forgot password</p>
+                    </div>
                     <div className="login-button">
                         <input type="submit" value={"log in"} />
                     </div>

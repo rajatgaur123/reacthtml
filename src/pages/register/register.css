@@ -1,0 +1,151 @@
+
+.register-section{
+    padding: 3rem 0;
+}
+.register-container{
+    width: 50%;
+    margin: 0 auto;
+    padding: 5rem 0;
+    text-align: center;
+    background-color: rgb(50, 50, 204);
+    border-radius: 1rem;
+}
+.register-h1 h1{
+    font-size: 3.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: white;
+    margin: 0.5em 0;
+}
+
+
+.register-3{
+    width: 80%;
+    margin: 0 auto;
+}
+.register-3 input{
+    width: 90%;
+    height: 5rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 0.8em 0;
+    padding-left: 0.8em;
+    border: none;
+    border-radius: 0.4em;
+}
+/* .lorem{
+    width: 71%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem auto;
+    text-align: left;
+}
+.lorem .box{
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+}
+.lorem p{
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+} */
+
+
+.register-button{
+    width: 71%;
+    margin: 2rem auto;
+    text-align: right;
+}
+.register-button input{
+    width: 18rem;
+    height: 4.5rem;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: white;
+    background-color: rgb(96, 154, 7);
+    border: none;
+    border-radius: 0.4em;
+}
+.register-button input:hover{
+    font-size: 2.3rem;
+    background-color: rgb(87, 141, 6);
+    color: rgb(192, 245, 247);
+    cursor: pointer;
+}
+
+
+/* ########################## responsive register-section 768px ########################### */
+
+@media (max-width:768px) {
+    .register-container{
+        width: 60%;
+    }
+
+
+    /* .lorem{
+        flex-direction: column;
+    }
+    .lorem p{
+        font-size: 1.2rem;
+        margin: 0.5em 0;
+    } */
+    .register-button{
+        text-align: center;
+    }
+}
+
+/* ########################## responsive register-section 769px and 1200px ############################# */
+
+@media (min-width:769px) and (max-width:1200px) {
+    .register-container{
+        width: 65%;
+    }
+    .register-h1 h1{
+        font-size: 3rem;
+    }
+
+    /* .lorem{
+        flex-direction: column;
+    }
+    .lorem p{
+        font-size: 1.2rem;
+        margin: 0.5em 0;
+    } */
+}
+/* ########################## responsive register-section 1201px and 1440px ############################# */
+
+@media (min-width:1201px) and (max-width:1440px) {
+    .register-container{
+        width: 56%;
+    }
+
+    /* .lorem{
+        flex-direction: column;
+    } */
+    /* .lorem p{
+        font-size: 1.3rem;
+        margin: 0.5em 0;
+    } */
+}
+
+/* #################### responsive register-section 550px ######################## */
+
+@media (max-width:550px) {
+    .register-h1 h1{
+        font-size: 2.8rem;
+    }
+
+    /* .lorem p{
+        font-size: 1.1rem;
+    } */
+    .register-button{
+        text-align: center;
+    }
+}

@@ -96,13 +96,29 @@
     color: rgba(255, 255, 255, 0.489);
     padding-left: 1rem;
 }
-.form-box p{
+/* .form-box p{
     font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: capitalize;
     color: white;
     margin: 0.5em 0 0.5em 8.6em;
     cursor: pointer;
+} */
+.register{
+    width: 75%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+.register p{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: white;
+    /* margin: 0.5em 0 0.5em 8.6em; */
+    cursor: pointer;
+    border-bottom: 2px solid rgb(241, 2, 2);
+    padding-bottom: 0.2em;
 }
 .login-button input{
     font-size: 2rem;
